@@ -1,10 +1,10 @@
 const BLOG = {
   title: '图什自留地', // 站点标题
-  description: '分享编程技术与记录生活', // 站点描述
-  author: 'tangly1024', // 作者
-  bio: '一个普通的干饭人🍚', // 作者简介
-  email: 'tlyong1992@hotmail.com', // 联系邮箱
-  link: 'https://tangly1024.com', // 网站地址
+  description: '分享、记录、探索。', // 站点描述
+  author: 'Lengpingyi', // 作者
+  bio: '冷静、平凡、唯一。', // 作者简介
+  email: 'lengpingyi@gmail.com', // 联系邮箱
+  // link: 'https://tangly1024.com', // 网站地址
   keywords: ['Notion', '写作', '博客'], // 网站关键词
   home: { // 首页
     showHomeBanner: false, // 首页是否显示大图及标语 [true,false]
@@ -16,7 +16,7 @@ const BLOG = {
     showSummary: false // 显示用户自定义摘要
   },
   lang: 'zh-CN', // ['zh-CN','en-US'] default lang => see /lib/lang.js for more.
-  notionPageId: process.env.NOTION_PAGE_ID || 'bee1fccfa3bd47a1a7be83cc71372d83', // Important page_id！！！
+  notionPageId: process.env.NOTION_PAGE_ID || '1f76147d615647eda2d9e3d9f4435fa4', // Important page_id！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
@@ -50,10 +50,10 @@ const BLOG = {
     showTagList: false // 右侧边栏显示标签分类列表
   },
   socialLink: { // 社交链接，如不需要展示可以留空白，例如 weibo:''
-    weibo: 'https://weibo.com/tangly1024',
-    twitter: 'https://twitter.com/troy1024_1',
-    github: 'https://github.com/tangly1024',
-    telegram: 'https://t.me/tangly_1024'
+    weibo: 'https://weibo.com/u/5333603078',
+    // twitter: 'https://twitter.com/troy1024_1',
+    // github: 'https://github.com/tangly1024',
+    // telegram: 'https://t.me/tangly_1024'
   },
   comment: { // 评论插件，支持 gitalk, utterances, cusdis
     provider: 'gitalk', // 不需要则留空白
