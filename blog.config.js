@@ -16,7 +16,7 @@ const BLOG = {
     showSummary: false // 显示用户自定义摘要
   },
   lang: 'zh-CN', // ['zh-CN','en-US'] default lang => see /lib/lang.js for more.
-  notionPageId: process.env.NOTION_PAGE_ID || '1f76147d615647eda2d9e3d9f4435fa4', // Important page_id！！！
+  notionPageId: process.env.NOTION_PAGE_ID || '39631c056eb54b4e92c439d9437268f8', // Important page_id！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'font-serif tracking-wider subpixel-antialiased', // 文章字体 ['font-sans', 'font-serif', 'font-mono'] @see https://www.tailwindcss.cn/docs/font-family
