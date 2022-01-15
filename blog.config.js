@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '小唐笔记', // 站点标题
+  title: '图什自留地', // 站点标题
   description: '分享编程技术与记录生活', // 站点描述
   author: 'tangly1024', // 作者
   bio: '一个普通的干饭人🍚', // 作者简介
