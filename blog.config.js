@@ -23,7 +23,7 @@ const BLOG = {
   lightBackground: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy in a folder
-  since: , // if leave this empty, current year will be used.
+  since: '', // if leave this empty, current year will be used.
   postListStyle: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
   postsPerPage: 6, // post counts per page
   sortByDate: false,
@@ -80,7 +80,7 @@ const BLOG = {
   // --- 高级设置
   analytics: { // 文章访问量统计
     busuanzi: false, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
-    provider: '', // 支持 Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // 支持 Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     baiduAnalytics: '', // e.g only need xxxxx -> https://hm.baidu.com/hm.js?[xxxxx]
     cnzzAnalytics: '', // 站长统计id only need xxxxxxxx -> https://s9.cnzz.com/z_stat.php?id=[xxxxxxxx]&web_id=[xxxxxxx]
     gaConfig: {
