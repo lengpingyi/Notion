@@ -27,9 +27,9 @@ const BLOG = {
   postListStyle: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
   postsPerPage: 6, // post counts per page
   sortByDate: false,
-  topNavType: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定顶部、固定底部滑动时自动折叠，不固定
+  topNavType: 'fixed', // ['fixed','autoCollapse','normal'] 分别是固定顶部、固定底部滑动时自动折叠，不固定
   menu: { // 菜单栏设置
-    showAbout: false, // 显示关于
+    showAbout: true, // 显示关于
     showCategory: true, // 显示分类
     showTag: true, // 显示标签
     showArchive: true, // 显示归档
@@ -40,7 +40,7 @@ const BLOG = {
     petLink: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
     showToTop: true, // 是否显示回顶
     showToBottom: false, // 显示回底
-    showDarkMode: false, // 显示日间/夜间模式切换
+    showDarkMode: true, // 显示日间/夜间模式切换
     showToc: true, // 移动端显示悬浮目录
     showShareBar: false, // 文章分享功能
     showRelatePosts: true, // 相关文章推荐
