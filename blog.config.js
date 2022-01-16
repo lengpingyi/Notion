@@ -50,14 +50,14 @@ const BLOG = {
     showTagList: false // 右侧边栏显示标签分类列表
   },
   socialLink: { // 社交链接，如不需要展示可以留空白，例如 weibo:''
-    weibo: 'https://weibo.com/u/5333603078',
-    // twitter: 'https://twitter.com/troy1024_1',
-    // github: 'https://github.com/tangly1024',
-    // telegram: 'https://t.me/tangly_1024'
+    // weibo: 'https://weibo.com/',
+    // twitter: 'https://twitter.com/',
+    // github: 'https://github.com/',
+    // telegram: 'https://t.me/'
   },
   comment: { // 评论插件，支持 gitalk, utterances, cusdis
-    provider: 'gitalk', // 不需要则留空白
-    gitalkConfig: {
+    provider: 'cusdis', // 不需要则留空白
+    // gitalkConfig: {
       repo: 'NotionNext', // The repository of store comments
       owner: 'tangly1024',
       admin: ['tangly1024'],
@@ -66,11 +66,11 @@ const BLOG = {
       distractionFreeMode: false
     },
     cusdisConfig: {
-      appId: '445ba48e-f751-487f-b22f-cdbe3310d28f', // data-app-id
+      appId: '96c6e43a-33ad-4622-9579-eaa5cec4cdf6', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     },
-    utterancesConfig: {
+    // utterancesConfig: {
       repo: 'tangly1024/NotionNext'
     },
     gitter: '', // gitter聊天室
@@ -81,7 +81,7 @@ const BLOG = {
   analytics: { // 文章访问量统计
     busuanzi: true, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
     provider: 'ga', // 支持 Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
-    baiduAnalytics: 'f683ef76f06bb187cbed5546f6f28f28', // e.g only need xxxxx -> https://hm.baidu.com/hm.js?[xxxxx]
+    baiduAnalytics: '83e5de996b4d19059e74d3f7cb58b81f', // e.g only need xxxxx -> https://hm.baidu.com/hm.js?[xxxxx]
     cnzzAnalytics: '', // 站长统计id only need xxxxxxxx -> https://s9.cnzz.com/z_stat.php?id=[xxxxxxxx]&web_id=[xxxxxxx]
     gaConfig: {
       measurementId: 'G-68EK0W049N' // e.g: G-XXXXXXXXXX
@@ -95,7 +95,7 @@ const BLOG = {
   seo: {
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  googleAdsenseId: 'ca-pub-2708419466378217', // 谷歌广告ID
+  // googleAdsenseId: 'ca-pub-2708419466378217', // 谷歌广告ID
   isProd: process.env.VERCEL_ENV === 'production'// distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
