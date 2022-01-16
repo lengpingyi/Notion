@@ -79,7 +79,7 @@ const BLOG = {
   },
   // --- 高级设置
   analytics: { // 文章访问量统计
-    busuanzi: flase, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
+    busuanzi: false, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
     provider: '', // 支持 Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     baiduAnalytics: '', // e.g only need xxxxx -> https://hm.baidu.com/hm.js?[xxxxx]
     cnzzAnalytics: '', // 站长统计id only need xxxxxxxx -> https://s9.cnzz.com/z_stat.php?id=[xxxxxxxx]&web_id=[xxxxxxx]
