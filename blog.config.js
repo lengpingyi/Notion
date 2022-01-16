@@ -23,13 +23,13 @@ const BLOG = {
   lightBackground: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#111827', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy in a folder
-  since: 2020, // if leave this empty, current year will be used.
+  since: , // if leave this empty, current year will be used.
   postListStyle: 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
   postsPerPage: 6, // post counts per page
   sortByDate: false,
   topNavType: 'fixed', // ['fixed','autoCollapse','normal'] 分别是固定顶部、固定底部滑动时自动折叠，不固定
   menu: { // 菜单栏设置
-    showAbout: true, // 显示关于
+    showAbout: false, // 显示关于
     showCategory: true, // 显示分类
     showTag: true, // 显示标签
     showArchive: true, // 显示归档
@@ -45,7 +45,7 @@ const BLOG = {
     showShareBar: false, // 文章分享功能
     showRelatePosts: true, // 相关文章推荐
     showCopyRight: true, // 文章版权声明
-    showLatestPost: false, // 右侧边栏显示最近更新
+    showLatestPost: true, // 右侧边栏显示最近更新
     showCategoryList: false, // 右侧边栏显示文章分类列表
     showTagList: false // 右侧边栏显示标签分类列表
   },
@@ -79,9 +79,9 @@ const BLOG = {
   },
   // --- 高级设置
   analytics: { // 文章访问量统计
-    busuanzi: true, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
-    provider: 'ga', // 支持 Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
-    baiduAnalytics: '83e5de996b4d19059e74d3f7cb58b81f', // e.g only need xxxxx -> https://hm.baidu.com/hm.js?[xxxxx]
+    busuanzi: flase, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
+    provider: '', // 支持 Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    baiduAnalytics: '', // e.g only need xxxxx -> https://hm.baidu.com/hm.js?[xxxxx]
     cnzzAnalytics: '', // 站长统计id only need xxxxxxxx -> https://s9.cnzz.com/z_stat.php?id=[xxxxxxxx]&web_id=[xxxxxxx]
     gaConfig: {
       measurementId: 'G-68EK0W049N' // e.g: G-XXXXXXXXXX
