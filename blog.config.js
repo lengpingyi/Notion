@@ -57,7 +57,7 @@ const BLOG = {
   },
   comment: { // 评论插件，支持 gitalk, utterances, cusdis
     provider: 'cusdis', // 不需要则留空白
-    // gitalkConfig: {
+      gitalkConfig: {
       repo: 'NotionNext', // The repository of store comments
       owner: 'tangly1024',
       admin: ['tangly1024'],
@@ -70,7 +70,7 @@ const BLOG = {
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     },
-    // utterancesConfig: {
+      utterancesConfig: {
       repo: 'tangly1024/NotionNext'
     },
     gitter: '', // gitter聊天室
@@ -95,7 +95,7 @@ const BLOG = {
   seo: {
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  // googleAdsenseId: 'ca-pub-2708419466378217', // 谷歌广告ID
+    googleAdsenseId: '', // 谷歌广告ID
   isProd: process.env.VERCEL_ENV === 'production'// distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
