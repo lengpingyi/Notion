@@ -45,7 +45,7 @@ const BLOG = {
     showShareBar: false, // 文章分享功能
     showRelatePosts: true, // 相关文章推荐
     showCopyRight: true, // 文章版权声明
-    showLatestPost: true, // 右侧边栏显示最近更新
+    showLatestPost: false, // 右侧边栏显示最近更新
     showCategoryList: false, // 右侧边栏显示文章分类列表
     showTagList: false // 右侧边栏显示标签分类列表
   },
